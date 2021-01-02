@@ -12,19 +12,19 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
-    - name: Set up JDK 11
-      uses: actions/setup-java@v1
-      with:
-        java-version: 11
-    - name: Release
-      uses: qcastel/github-actions-maven-release@master
-      with:
-        release-branch-name: "master"
-        git-release-bot-name: "release-bot"
-        git-release-bot-email: "release-bot@thsp.dev"
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - name: Release
+        uses: qcastel/github-actions-maven-release@master
+        with:
+          release-branch-name: "master"
+          git-release-bot-name: "release-bot"
+          git-release-bot-email: "release-bot@thsp.dev"
 
-        gpg-enabled: "false" # TODO: add later
-        gpg-key-id: ${{ secrets.GITHUB_GPG_KEY_ID }}
-        gpg-key: ${{ secrets.GITHUB_GPG_KEY }}
-        access-token: ${{ secrets.GITHUB_TOKEN }}
-        skip-perform: true
+          gpg-enabled: "false" # TODO: add later
+          gpg-key-id: ${{ secrets.GITHUB_GPG_KEY_ID }}
+          gpg-key: ${{ secrets.GITHUB_GPG_KEY }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          skip-perform: true
