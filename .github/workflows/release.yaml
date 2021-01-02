@@ -23,6 +23,9 @@ jobs:
           git-release-bot-name: "release-bot"
           git-release-bot-email: "release-bot@thsp.dev"
 
+          maven-repo-server-id: github
+          maven-repo-server-username: ${{ github.GITHUB_ACTOR }}
+          maven-repo-server-password: ${{ secrets.GITHUB_TOKEN }}
           gpg-enabled: "false" # TODO: add later
           gpg-key-id: ${{ secrets.GITHUB_GPG_KEY_ID }}
           gpg-key: ${{ secrets.GITHUB_GPG_KEY }}
