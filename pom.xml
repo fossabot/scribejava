@@ -32,11 +32,19 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/scribejava/scribejava.git</connection>
-        <developerConnection>scm:git:git@github.com:scribejava/scribejava.git</developerConnection>
-        <url>https://github.com/scribejava/scribejava</url>
+        <connection>scm:git:git://github.com/thspinto/scribejava.git</connection>
+        <developerConnection>scm:git:git@github.com:thspinto/scribejava.git</developerConnection>
+        <url>https://github.com/thspinto/scribejava</url>
         <tag>HEAD</tag>
     </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub thspinto Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/thspinto</url>
+        </repository>
+    </distributionManagement>
 
     <developers>
         <developer>
