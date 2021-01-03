@@ -42,7 +42,7 @@
         <repository>
             <id>github</id>
             <name>GitHub thspinto Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/thspinto</url>
+            <url>https://maven.pkg.github.com/thspinto/scribejava</url>
         </repository>
     </distributionManagement>
 
