@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.scribejava</groupId>
+        <groupId>com.github.thspinto</groupId>
         <artifactId>scribejava</artifactId>
         <version>8.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    
-    <groupId>com.github.scribejava</groupId>
+
+    <groupId>com.github.thspinto</groupId>
     <artifactId>scribejava-core</artifactId>
     <name>ScribeJava Core</name>
     <packaging>jar</packaging>

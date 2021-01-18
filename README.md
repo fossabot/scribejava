@@ -134,7 +134,7 @@ You can pull ScribeJava from the central maven repository, just add these to you
 
 ```xml
 <dependency>
-    <groupId>com.github.scribejava</groupId>
+    <groupId>com.github.thspinto</groupId>
     <artifactId>scribejava-apis</artifactId>
     <version>8.1.0</version>
 </dependency>
@@ -143,7 +143,7 @@ You can pull ScribeJava from the central maven repository, just add these to you
 And in case you need just core classes (that's it, without any external API (FB, VK, GitHub, Google etc) specific code), you could pull just 'core' artifact.
 ```xml
 <dependency>
-    <groupId>com.github.scribejava</groupId>
+    <groupId>com.github.thspinto</groupId>
     <artifactId>scribejava-core</artifactId>
     <version>8.1.0</version>
 </dependency>

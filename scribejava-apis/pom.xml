@@ -3,49 +3,49 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.scribejava</groupId>
+        <groupId>com.github.thspinto</groupId>
         <artifactId>scribejava</artifactId>
         <version>8.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.github.scribejava</groupId>
+    <groupId>com.github.thspinto</groupId>
     <artifactId>scribejava-apis</artifactId>
     <name>ScribeJava APIs</name>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-httpclient-ahc</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-httpclient-ning</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-httpclient-okhttp</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-httpclient-apache</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-httpclient-armeria</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

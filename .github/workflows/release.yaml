@@ -35,3 +35,5 @@ jobs:
           gpg-key: ${{ secrets.GITHUB_GPG_KEY }}
           access-token: ${{ secrets.GITHUB_TOKEN }}
           skip-perform: true
+        env:
+          JAVA_HOME: /usr/lib/jvm/java-1.8-openjdk/

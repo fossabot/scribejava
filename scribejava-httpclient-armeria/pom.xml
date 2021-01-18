@@ -3,20 +3,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.scribejava</groupId>
+        <groupId>com.github.thspinto</groupId>
         <artifactId>scribejava</artifactId>
         <version>8.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.github.scribejava</groupId>
+    <groupId>com.github.thspinto</groupId>
     <artifactId>scribejava-httpclient-armeria</artifactId>
     <name>ScribeJava Async Armeria Client support</name>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -26,7 +26,7 @@
             <version>1.3.0</version>
         </dependency>
         <dependency>
-            <groupId>com.github.scribejava</groupId>
+            <groupId>com.github.thspinto</groupId>
             <artifactId>scribejava-core</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>
