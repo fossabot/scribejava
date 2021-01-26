@@ -1,6 +1,7 @@
 # Welcome to the home of ScribeJava, the simple OAuth client Java lib!
 
 [![Donate](https://www.paypalobjects.com/en_US/RU/i/btn/btn_donateCC_LG.gif)](https://github.com/scribejava/scribejava/blob/master/donate.md) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.scribejava/scribejava/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.scribejava/scribejava)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthspinto%2Fscribejava.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthspinto%2Fscribejava?ref=badge_shield)
 
 
 # Why use ScribeJava?
@@ -172,3 +173,7 @@ Feel free to drop us an email or create issue right here on github.com
 ## Forks
 
 If you have a useful fork that should be listed there please contact us
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthspinto%2Fscribejava.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthspinto%2Fscribejava?ref=badge_large)
